@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<cdi>
+  <container name="web">
+    <module class="org.openurp.hr.profile.web.action.DefaultModule"/>
+    <module class="org.openurp.hr.profile.web.ws.DefaultModule"/>
+  </container>
+</cdi>

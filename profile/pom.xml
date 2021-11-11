@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <groupId>org.openurp.hr</groupId>
+    <artifactId>openurp-hr-web-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openurp.hr</groupId>
+  <artifactId>openurp-hr-profile</artifactId>
+  <packaging>jar</packaging>
+  <name>OpenURP HR Profile</name>
+
+  <properties>
+    <bundle.symbolicName>org.openurp.hr.profile</bundle.symbolicName>
+    <bundle.namespace>org.openurp.hr</bundle.namespace>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openurp.boot</groupId>
+      <artifactId>openurp-boot-web</artifactId>
+      <version>${openurp.boot.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.ems</groupId>
+      <artifactId>beangle-ems-app_2.13</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.openurp.base</groupId>
+      <artifactId>openurp-base-api</artifactId>
+      <version>${openurp.api.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openurp.hr</groupId>
+      <artifactId>openurp-hr-api</artifactId>
+      <version>${openurp.api.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.data</groupId>
+      <artifactId>beangle-data-orm_2.13</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.security</groupId>
+      <artifactId>beangle-security-core_2.13</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.serializer</groupId>
+      <artifactId>beangle-serializer-text_2.13</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.beangle.cdi</groupId>
+      <artifactId>beangle-cdi-api_2.13</artifactId>
+      <version>${beangle.cdi.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+    </dependency>
+  </dependencies>
+</project>

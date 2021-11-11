@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mvc>
+  <profile name="openurp-hr-profile-webapp" package="org.openurp.hr.*.web.action">
+    <url path="/" suffix=""  style="seo" />
+    <interceptors>
+      <interceptor name="web.Interceptor.hibernate"/>
+      <interceptor name="web.Interceptor.security"/>
+    </interceptors>
+  </profile>
+
+  <profile name="openurp-hr-profile-ws" package="org.openurp.hr.*.web.ws">
+    <action suffix="WS" defaultMethod="index" />
+    <url path="/" suffix=""  style="seo" />
+    <interceptors>
+      <interceptor name="web.Interceptor.hibernate"/>
+    </interceptors>
+  </profile>
+</mvc>

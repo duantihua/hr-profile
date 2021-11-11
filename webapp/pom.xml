@@ -1,25 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>org.openurp.hr.profile</groupId>
-    <artifactId>openurp-hr-profile-parent</artifactId>
+    <groupId>org.openurp.hr</groupId>
+    <artifactId>openurp-hr-web-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.openurp.hr.profile</groupId>
-  <artifactId>openurp-hr-profile-webapp</artifactId>
+  <groupId>org.openurp.hr</groupId>
+  <artifactId>openurp-hr-webapp</artifactId>
   <packaging>war</packaging>
-  <name>OpenURP HR Profile Webapp</name>
+  <name>OpenURP HR Webapp</name>
 
   <properties>
-    <bundle.symbolicName>org.openurp.hr.profile.webapp</bundle.symbolicName>
-    <bundle.namespace>org.openurp.hr.profile</bundle.namespace>
+    <bundle.symbolicName>org.openurp.hr.webapp</bundle.symbolicName>
+    <bundle.namespace>org.openurp.hr</bundle.namespace>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.openurp.hr.profile</groupId>
-      <artifactId>openurp-hr-profile-web</artifactId>
+      <groupId>org.openurp.hr</groupId>
+      <artifactId>openurp-hr-profile</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

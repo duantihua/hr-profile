@@ -4,22 +4,22 @@
   <parent>
     <groupId>org.openurp</groupId>
     <artifactId>openurp-parent</artifactId>
-    <version>0.4.4</version>
+    <version>0.4.10</version>
   </parent>
-  <groupId>org.openurp.hr.profile</groupId>
-  <artifactId>openurp-hr-profile-parent</artifactId>
+  <groupId>org.openurp.hr</groupId>
+  <artifactId>openurp-hr-web-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>OpenURP HR Profile Parent</name>
+  <name>OpenURP HR Parent</name>
 
   <modules>
-    <module>web</module>
+    <module>profile</module>
     <module>webapp</module>
   </modules>
 
   <properties>
-    <openurp.edu.web.version>0.1.9-SNAPSHOT</openurp.edu.web.version>
-    <openurp.api.version>0.19.0-SNAPSHOT</openurp.api.version>
+    <openurp.boot.version>0.0.5</openurp.boot.version>
+    <openurp.api.version>0.22.1</openurp.api.version>
   </properties>
 
 </project>
